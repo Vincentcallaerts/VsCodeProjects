@@ -1,0 +1,31 @@
+.container{
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+ul{
+    margin: 0;
+}
+.card{
+    width: 18rem;
+    margin: 10px;
+    padding: 10px;
+}
+.card-title{
+    padding: 10px;
+    font-size: 40px;
+    font-style: bold;
+    text-align: center;
+}
+.boy{
+    background-color: rgb(80, 80, 255);
+}
+.girl{
+    background-color: hotpink;
+}
+img{
+    float: left;
+    padding: 5px;
+    width: 100px;
+    height: 180px;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: max-content;
+    margin: 0 auto;
+}
+p:nth-child(even){
+    background-color: gray;
+    color: gray;
+}
+p{
+    width: 1000px;
+    height: 100px;
+    background-color: black;
+    transform: rotate(40deg);
+    transition-duration: 5s;  
+}
+p:hover{
+    background-color: green;
+    color: green;
+    transform: rotate(320deg);
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(22, 6, 255);
+}
+nav{
+    display: inline-block;
+    margin-right: 50px;
+    border: solid hotpink 2px;
+    background-color: hotpink;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav:hover{
+    background-color: red;
+    border-color: red;
+}
+footer{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 80%;
+    left: 95%;   
+    
+}
+a{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+     
+}
+#uniek{
+    
+    display: none;
+}

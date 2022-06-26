@@ -1,0 +1,13 @@
+.box{
+    border: solid black 1px;
+}
+.enabled{
+    display: block;
+}
+.disabled{
+    display: none;
+}
+#textbox{
+    margin-bottom: 10px;
+    border: solid black 5px;
+}

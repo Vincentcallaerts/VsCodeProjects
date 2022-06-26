@@ -1,0 +1,43 @@
+.card-body{
+    margin: 1px;
+    border-radius: 25px;
+    background-color: chocolate;
+    border: solid black 1px;
+    width: 80%;
+    padding: 0.6rem;
+}
+.card-body> :nth-last-child(2) {
+    justify-items: right;
+    margin-right: 75px;
+}
+input{
+    width: 80%;
+    margin-bottom: 5px;
+}
+.btn{
+    margin-bottom: 5px;
+}
+.btnComment{
+    margin-bottom: 5px;
+    background-color: skyblue;
+    font-weight: bolder;
+    border: solid black 1px;
+}
+.comments{
+    background-color: chocolate;
+    border: none;
+}
+
+#addCommentbtn{
+    background-color: skyblue;
+    font-weight: bolder;
+    border: solid black 1px;
+}
+#addComment{
+    width: 66%;
+}
+p{
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 10px;
+}

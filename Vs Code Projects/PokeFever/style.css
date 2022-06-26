@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding:0;
+    
+}
+
+body {
+    background-image: url(/PokeFever/img/pokemong.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 50%;
+    background-color: grey;
+    width: max-content;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 30px;
+}
+p{
+    margin-bottom: 20px;
+}
+.overlappers{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: fit-content;
+    display: inline-block;
+}
+.left{
+    width: 200px;
+    height: 200px;
+    content: url(img/bulb.jpg);
+    display: inline-block;
+    border-radius: 25px;
+    border: solid black 5px;
+}
+.middle{
+    width: 200px;
+    height: 200px;
+    content: url(img/char.jpg);
+    display: inline-block;
+    border-radius: 25px;
+    border: solid black 5px;
+}
+.right{
+    width: 200px;
+    height: 200px;
+    content: url(img/squirt.jpg);
+    display: inline-block;
+    border-radius: 25px;
+    border: solid black 5px;
+}
+.knoplayout{
+    border: black solid 1px;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+}
+.hotpink{
+    color: hotpink;
+}
+.bg_cover {
+    text-align: center;
+    padding-top: 100px;
+}

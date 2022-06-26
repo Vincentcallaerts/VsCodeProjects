@@ -1,0 +1,16 @@
+body,#psw{
+    margin-top: 50px;
+}
+.invalid{
+    color: red;
+}
+.valid{
+    content: attr();
+    color: green;
+}
+.valid::before {
+    content: "Valid: ";
+}
+.invalid::before {
+    content: "Invalid: ";
+}

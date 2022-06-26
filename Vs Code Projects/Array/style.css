@@ -1,0 +1,15 @@
+.mystyle{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.textzone{
+    padding: 10px;
+    border: solid black 1px;
+    text-align: left;
+}
+#textArray::before{
+    content: "Inhoud Array: ";
+}
+#lengthArray::before{
+    content: "Lengte Array: ";
+}

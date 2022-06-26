@@ -1,0 +1,13 @@
+
+img{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+img:hover{
+    cursor: pointer;
+}
+p{
+    text-align: left;
+}
+

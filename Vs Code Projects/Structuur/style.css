@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;  
+
+}
+
+header{
+    background-color: darkgray;
+    margin-bottom: 20px;
+}
+
+nav{  
+    width: max-content;
+    margin: 0 auto;   
+    box-sizing: border-box;
+}
+a{
+    background-color: skyblue;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: solid black 2px;
+}
+a:hover{
+    background-color: lightblue;
+}
+span{
+    margin: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,14 @@
+.carousel-item{
+    height: 500px;
+}
+img {
+    width: auto;
+    height: 450px;
+}
+.visable{
+    color: black;
+}
+#flute{
+    width: 10px;
+    height: 10px;
+}
